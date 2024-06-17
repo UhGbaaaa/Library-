@@ -140,3 +140,15 @@ end)
 Toggle.Invisible = true
 Library:ToggleUI()
 ```
+
+### Section 
+
+```lua
+Tab:Section("Local Player")
+```
+
+### infolabel
+
+```lua
+Tab:InfoLabel("Wait")
+```

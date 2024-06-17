@@ -18,7 +18,7 @@ local Window = Library:Create("Titler")
 You can create multiple tabs to organize your features.
 
 ```lua
-local HTab = Window:Tab("Tab","rbxassetid://10888331510")
+local Tab = Window:Tab("Tab","rbxassetid://10888331510")
 ```
 
 **Argument 1: Name of your tab (type: `string`)**
@@ -37,7 +37,7 @@ end)
 
 **Argument 1: Name of the Button (type: `string`)**
 
-**Argument 3: Function to execute when the button is clicked (type: `function`)**
+**Argument 2: Function to execute when the button is clicked (type: `function`)**
 
 ### Toggle
 
@@ -51,9 +51,9 @@ end)
 
 **Argument 1: Name (type: `string`)**
 
-**Argument 3: Default toggle state (type: `boolean`)**
+**Argument 2: Default toggle state (type: `boolean`)**
 
-**Argument 4: Function to execute (return: `bool`) (type: `function`)**
+**Argument 3: Function to execute (return: `bool`) (type: `function`)**
 
 ### Input Text
 
@@ -68,7 +68,7 @@ end)
 
 **Argument 1: Name/Title (type: `string`)**
 
-**Argument 3: Function to execute (type: `function`)**
+**Argument 2: Function to execute (type: `function`)**
 
 ### Keybind
 
@@ -82,7 +82,7 @@ end)
 
 **Argument 1: Name/Title (type: `string`)**
 
-**Argument 3: Function to execute (return: input) (type: `function`)**
+**Argument 2: Function to execute (return: input) (type: `function`)**
 
 ### Slider
 
@@ -96,9 +96,9 @@ end)
 
 **Argument 1: Name/Title (type: `string`)**
 
-**Argument 3: Maximum value for the slider (type: `int`)**
+**Argument 2: Maximum value for the slider (type: `int`)**
 
-**Argument 5: Function to execute (return: int) (type: `function`)**
+**Argument 3: Function to execute (return: int) (type: `function`)**
 
 ## Built-in UI Features
 
@@ -132,4 +132,11 @@ Toggle.Draggable = true
 Toggle.MouseButton1Click:connect(function()
     Library:ToggleUI()
 end)
+```
+
+### Bysuskhmer UI Delete 
+
+```lua
+Toggle.Invisible = true
+Library:ToggleUI()
 ```

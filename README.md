@@ -110,3 +110,25 @@ local Dropdown = Tab1:AddDropdown({
     
 })
 ```
+### TextBox
+
+```lua
+Tab1:AddTextBox({
+  Name = "Textbox",
+  Description = "this is a Text box",
+  Default = "Text",
+  Callback = function(Value)
+    
+  end
+})
+```
+
+### DiscordInvite
+
+```lua
+Tab1:AddDiscordInvite({
+  Name = "redz Hub | Community",
+  Logo = "rbxassetid://15298567397",
+  Invite = "https://discord.gg/7aR7kNVt4g"
+})
+```

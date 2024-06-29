@@ -641,13 +641,13 @@ function redzlib:MakeWindow(Configs)
     WaitClick = true
     
     if Minimized then
-      MinimizeButton.Image = "rbxassetid://10734896206"
+      MinimizeButton.Image = "rbxassetid://"
       CreateTween({MainFrame, "Size", SaveSize, 0.25, true})
       ControlSize1.Visible = true
       ControlSize2.Visible = true
       Minimized = false
     else
-      MinimizeButton.Image = "rbxassetid://10734924532"
+      MinimizeButton.Image = "rbxassetid://"
       SaveSize = MainFrame.Size
       ControlSize1.Visible = false
       ControlSize2.Visible = false

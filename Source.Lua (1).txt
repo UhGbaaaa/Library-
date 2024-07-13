@@ -7,7 +7,7 @@ local CoreGui = game:GetService("CoreGui")
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 local PlayerMouse = Player:GetMouse()
-local font = Enum.Font.BuilderSansExtraBold
+local font = Enum.Font.SourceSans
 local NotificationHolder = loadstring(game:HttpGet("https://pastebin.com/raw/0bu3nCY9"))()
 local Notification = loadstring(game:HttpGet("https://pastebin.com/raw/VyhQEX2S"))()
 
@@ -57,7 +57,7 @@ local redzlib = {
   Save = {
     UISize = {550, 380},
     TabSize = 160,
-    Theme = "Darker"
+    Theme = "Dark"
   },
   Instances = {},
   Elements = {},

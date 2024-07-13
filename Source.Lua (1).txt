@@ -848,7 +848,7 @@ function redzlib:MakeWindow(Configs)
     }), "Text")
     
     local Selected = InsertTheme(Create("Frame", TabSelect, {
-      Size = FirstTab and UDim2.new(0, 4, 0, 4) or UDim2.new(0, 4, 0, 13),
+      Size = FirstTab and UDim2.new(0, 4, 0, 4) or UDim2.new(0, 6, 0, 13),
       Position = UDim2.new(0, 1, 0.5),
       AnchorPoint = Vector2.new(0, 0.5),
       BackgroundColor3 = Theme["Color Theme"],

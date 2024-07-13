@@ -832,7 +832,7 @@ function redzlib:MakeWindow(Configs)
       Font = font,
       Text = TName,
       TextColor3 = Theme["Color Text"],
-      TextSize = 10,
+      TextSize = 17,
       TextXAlignment = Enum.TextXAlignment.Left,
       TextTransparency = (FirstTab and 0.3) or 0,
       TextTruncate = "AtEnd"

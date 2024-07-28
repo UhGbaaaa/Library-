@@ -1,1 +1,2 @@
-loadstring(game:HttpGet("https://github.com/UhGbaaaa/-/raw/main/Project%20VIP%201.3.lua"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/X-Mobile-/main/X%20Mobile%20V1.txt"))()
